@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.padding{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +15,41 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.divc{
+background: #0f202779;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  margin-bottom: 5px;
+  display: flex;
+}
+.input{
+  color: red;
+}
+.input:focus{
+  color: blue;
+}
+.logo{
+  align-items: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  /* display: flex; */
+}
+.heading{
+ align-self: center;
+  font-style: bold;
+  margin-top: 25px;
+  margin-right: 50px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  min-width: 35px;
+}
+.heading span {
+  color:  rgb(77, 164, 161);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +64,10 @@
 .App-link {
   color: #61dafb;
 }
+
+/* .span{
+ display: flex;
+} */
 
 @keyframes App-logo-spin {
   from {
